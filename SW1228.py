@@ -9,10 +9,7 @@ for tc in range(1,11):
             y = int(T_set[i+2]) # y 개 
             for a in range(y): # y개 개수만큼 인덱스 값에 추가
                 o_set.insert(x+a,T_set[i+3+a])
-            #sas = T_set[i+3:(i+3+y)]
-            #saas = ' '.join(sas)
-            #print(y,sas)                
-            #print(x,o_set)
+
     print(f'#{tc}',' '.join(o_set[:10]))
 
 
