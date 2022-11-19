@@ -15,7 +15,7 @@ for tc in range(1,11):
             x = int(T_set[i+1]) # x의 위치부터
             y = int(T_set[i+2]) # y 개
             for _ in range(y):          
-                del o_set[x] #해당 인덱스꺼 찾아서 삭제
+                del(o_set[x]) #해당 인덱스꺼 찾아서 삭제
 
 
 
